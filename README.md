@@ -3,8 +3,9 @@
 ___________________
 
 ### Project Introduction 
-This Project works on the "Human Activity Recognition Using Smartphones Data Set" 
+This Project works on the "Human Activity Recognition Using Smartphones Data Set"<br>
 Source: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
 The goal of the project is to create a script named, run_analysis.R, which does the below steps.
 
 1: Merges the training and the test sets to create one data set.
