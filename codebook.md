@@ -139,15 +139,6 @@ f) The Subject and activity names are extracted for each group, and these are ma
 
 g) The resulting dataframe is written into a tidy.txt output file.
 
-###Conclusions
-1. The tidy dataset has been created as required.
-2. Certain assumptions have been made about the requirements, but none of them are too rigid. And code can easily be changed to accomodate
-and differences
-3. All the steps have been documented in this readme file, also the code contains brief comments
-4. The codebook is in a file named, codebook.md. And this can be used to quickly understand what the variables are about. 
-
-
-
 
 ## Variable details
 The data has 35 rows. Each consisting of the below 68 columns

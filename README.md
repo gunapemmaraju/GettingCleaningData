@@ -28,6 +28,9 @@ If any of these assumptions are invalid. The code can easily be modified to acco
 
 ###Outputs
 1. The tidy dataset would be created in a file named tidy.txt
-2. Certain assumptions have been made about the requirements, but none of them are too rigid. And code can easily be changed to accomodate
+
+###Conclusions
+1. Certain assumptions have been made about the requirements, but none of them are too rigid. And code can easily be changed to accomodate
 and differences
-3. The codebook is in a file named, codebook.md. And this can be used to quickly understand details about the data, the steps followed and what the variables are about. 
+2. The code, including contains brief comments, is in a file named run_analysis.R
+3. The codebook is in a file named, codebook.md. And this can be used to quickly understand what the variables are about. 
