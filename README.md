@@ -20,7 +20,7 @@ a) This script and the "UCI HAR Dataset" directory should be in the same parent 
 b) The parent directory (DIR) should be set as the working director. 
 If any of these assumptions are invalid. The code can easily be modified to accomodate the same. 
 
-### Design approach and details of steps
+### Design approach,  and brief details of the steps followed
 The main approach has been to see if manual looping can be avoided in favor of, apply functions and subsetting.
 Further I have avoided using the plyr package. Mainly because I wanted to use this exercise to understand the "apply" functions well.
 
@@ -29,7 +29,7 @@ The comments in the code mark the beginning of each of the steps.
 
 Brief details of the work done in each of the steps, are mentioned below.
 
-###Step1:
+###Step1
 In this step, 
 a) The X Values of test and train are combined
 b) The Y Values of test and train are combined
