@@ -60,9 +60,10 @@ These one of
 -STANDING
 -LAYING
 
-** For each of the below 66 variables. The column is the `Average` of the appropriate variables mentioned in the feature introduction section.
+**For each of the below 66 variables. The column is the `Average` of the appropriate variables mentioned in the feature introduction section.
 It is assumed that the variable is not needed to be expanded again. However, if this assumption is invalid, the variable name can again be 
-re-mentioned below ** 
+re-mentioned below**
+ 
 3 AvgtBodyAcc.mean...X
 4 AvgtBodyAcc.mean...Y
 5 AvgtBodyAcc.mean...Z
