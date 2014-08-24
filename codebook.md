@@ -44,9 +44,13 @@ These signals were used to estimate variables of the feature vector for each pat
 - fBodyAccJerkMag
 - fBodyGyroMag
 - fBodyGyroJerkMag
+
 <i>The set of variables that were estimated from these signals are: 
+
 <i>`mean()`: Mean value
+
 <i>`std()`: Standard deviation
+
 </i>
 ## Variable details
 The data has 35 rows. Each consisting of the below 68 columns
