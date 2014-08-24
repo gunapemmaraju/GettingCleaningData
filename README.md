@@ -4,7 +4,7 @@ ___________________
 
 ### Project Introduction 
 This Project works on the "Human Activity Recognition Using Smartphones Data Set" 
-which was originally made avaiable here: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+Source: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 The goal of the project is to create a script named, run_analysis.R, which does the below steps.
 
 1: Merges the training and the test sets to create one data set.
@@ -43,7 +43,9 @@ b) Here the assumption made is that only the variables which are computed mean a
 c) These are identified by looking for the strings mean() or std() in the variable names
 d) Note that because of the assumption made in (b), variables like "fBodyAcc-meanFreq()-X" are excluded. Because it is assumed that 
 these are not computed means.
-e) If any of these assumptions are invalid. The code can easily be modified to accomodate the same. 
+e) Also note that additional vectors obtained by averaging the signals in a signal window sample are not considered. Mainly because 
+it didn't look like they were estimated means. 
+f) If any of these assumptions are invalid. The code can easily be modified to accomodate the same. 
 
 ### Step3
 In this Step

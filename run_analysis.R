@@ -14,7 +14,7 @@ colInds<-which(reqdVars)
 X2<-X1[,colInds]
 
 
-#Step3: I am still keeping the X's and Y's separately. I will combine them at the right stage.
+#Step3: Descriptive activity labels added. Note that, I am still keeping the X's and Y's separately. I will combine them at the right stage.
 actLabels<-read.table("./UCI HAR Dataset//activity_labels.txt")
 Y3<-merge(Y1,actLabels,by.x=1,by.y=1,all.x = TRUE)
 Y3[,1]<-NULL
@@ -31,7 +31,7 @@ df<-cbind(sub1,Y3,X4)
 vals<-df[,3:ncol(df)]
 groups<-split(vals,paste(df$Subject,df$ActivityName, sep="+"))
 res1<-sapply(groups,colMeans)
-row.names(res1)<-paste("Average",row.names(res1),sep="")
+row.names(res1)<-paste("Avg",row.names(res1),sep="")
 res2<-data.frame(t(res1))
 subAct<-rownames(res2)
 Subject <- as.integer(sapply(strsplit(subAct, "+", fixed=T), "[[", 1))
