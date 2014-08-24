@@ -21,9 +21,9 @@ The goal of the project is to create a script named, run_analysis.R, which does 
 This list of steps and, more details about the project can be found at : https://class.coursera.org/getdata-006 under the Project section.
 
 ### Pre-requisites
-a) The script, run_analysis.R, and the "UCI HAR Dataset" directory should be in the same parent directory (say DIR)
+1. The script, run_analysis.R, and the "UCI HAR Dataset" directory should be in the same parent directory (say DIR)
 
-b) The parent directory (DIR) should be set as the working director. 
+2. The parent directory (DIR) should be set as the working director. 
 If any of these assumptions are invalid. The code can easily be modified to accomodate the same. 
 
 ###Outputs
